@@ -5,14 +5,19 @@ import { MuiThemeProvider } from '@material-ui/core/styles'
 
 import Theme from './theme'
 
+// import component and store here
+// (using root for easier store/provider
+// support for testing for later)
+
 import Layout from './Layout'
+import Root from "./store"
 
 ReactDOM.render(
-    <div>
+    <Root>
         <MuiThemeProvider theme={Theme}>
             <CssBaseline>
                 <Layout />
             </CssBaseline>
         </MuiThemeProvider>
-    </div>
+    </Root>
     , document.getElementById('app'));
