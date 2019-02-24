@@ -5,7 +5,8 @@
     "main": "js/server.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
-        "watch-server": "nodemon js/server.js"
+        "watch-server": "nodemon js/server.js",
+        "lint": "eslint js/**/*.js js/**/*.jsx"
     },
     "repository": {
         "type": "git",
@@ -28,6 +29,8 @@
         "babel": "^6.23.0",
         "babel-loader": "^8.0.5",
         "babel-preset-react": "^6.24.1",
+        "eslint": "^5.14.1",
+        "eslint-plugin-react": "^7.12.4",
         "express": "^4.16.4",
         "nodemon": "^1.18.10",
         "react": "^16.8.2",
@@ -43,5 +46,28 @@
         "plugins": [
             "@babel/plugin-proposal-class-properties"
         ]
+    },
+    "eslintConfig": {
+        "env": {
+            "browser": true,
+            "node": true,
+            "es6": true
+        },
+        "extends": [
+            "eslint:recommended",
+            "plugin:react/recommended"
+        ],
+        "settings": {
+            "react": {
+                "version": "detect"
+            }
+        },
+        "parserOptions": {
+            "ecmaVersion": 6,
+            "sourceType": "module",
+            "ecmaFeatures": {
+                "jsx": true
+            }
+        }
     }
 }
