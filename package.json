@@ -1,0 +1,22 @@
+{
+    "name": "pokedex-022796",
+    "version": "1.0.0",
+    "description": "Pokedex!",
+    "main": "js/server.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/y04nqt/pokedex-022796.git"
+    },
+    "keywords": [
+        "pokedex"
+    ],
+    "author": "Aaron Krueger",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/y04nqt/pokedex-022796/issues"
+    },
+    "homepage": "https://github.com/y04nqt/pokedex-022796#readme"
+}
