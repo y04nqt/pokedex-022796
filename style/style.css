@@ -1,0 +1,57 @@
+/* Helper classes */
+
+.alignSelfCenter {
+    align-self: center;
+}
+
+.paddingTop16 {
+    padding-top: 16px;
+}
+
+.textAlignCenter {
+    text-align: center;
+}
+
+.niceMarginSpacing {
+    margin: 8px 0;
+}
+
+/* end of helper classes */
+
+
+#header {
+    padding: 16px 0;
+}
+
+#pokedex-logo {
+    width: 250px;
+    margin: 0 auto;
+}
+
+#starter-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.starterPokemons {
+    padding: 0 24px;
+    display: inline-flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.pokeImg {
+    max-width: 100px;
+}
+
+#feeling-lucky-btn{
+    margin: 32px 0;
+}
+
+#random-pokemon-container {
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
