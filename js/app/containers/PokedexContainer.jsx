@@ -23,7 +23,7 @@ class PokedexContainer extends React.Component {
 
     render() {
         return (
-            <div id="pokedex-container">
+            <div id="pokedex-container" className="paddingTop16 textAlignCenter" >
                 <StarterPokemonView starterPokemon={this.props.starterPokemon}/>
                 <Button id="feeling-lucky-btn"
                         variant="contained" 
